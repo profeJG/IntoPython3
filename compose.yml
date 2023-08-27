@@ -1,0 +1,8 @@
+services:
+  my-python:
+    image: python:3-alpine
+    container_name: my-python
+    # workdir: /usr/src/app
+    volumes:
+      - ./app/:/usr/src/app
+
